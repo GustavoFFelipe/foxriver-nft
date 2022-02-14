@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+body{
+    background: url('/assets/background.png')no-repeat;
+    width: 1200px;
+}
+/*Nav-bar style*/
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 32px 57px 0 57px;
+    
+}
+header a {
+    text-decoration: none;
+}
+header #logo {
+    font-size: 20px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+header .h1-rocket {
+    color: #fff;
+    margin-right: 6px;
+}
+header .h1-nft {
+    color: #FF5B50;
+}
+header .nav-bar{
+    display:flex;
+}
+header a .navbar-link {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    padding: 0 30px;
+}
+header a .navbar-link:hover {
+    color: #FF5B50;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:  4px 8px;
+    margin-right: 20px;
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: 0px none;
+}
+
+.conect-wallet:hover {
+    background-color: #FF5B50;
+    opacity: 80%;
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+
+}
+
+
+
