@@ -8,8 +8,14 @@
 }
 body{
     background: url('/assets/background.png')no-repeat;
+    background-size: 1270px;
     width: 1200px;
+    background-color:black;
     
+}
+body p {
+    padding: 0px;
+    margin: 0px;
 }
 /*Nav-bar style*/
 header {
@@ -82,15 +88,14 @@ button {
 
 main .main-article {
     width: 100%;
-    margin-top: 70px;
-    margin: 70px 57px 0 57px;
+    margin: 110px 57px 0 57px;
     display: flex;
     justify-content: space-between;
 }
 main .exp-dig{
-    width: 350px;
+    width: 325px;
 }
-main p {
+.exp-dig .p-info {
     color: #fff;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
@@ -127,9 +132,11 @@ div .photo1{
     z-index: 3;
     margin-left: 0px;
 }
-.mais-artistas p{
+.mais-artistas .p-link-artist{
     color: #fff;
-    font-family: 'Montserrat' sans-serif;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400; 
     margin-left: 130px;
     margin-top: 60px;
 }
@@ -152,6 +159,7 @@ article .badge {
 /*Second content*/
 .photos {
     margin-bottom: 0px;
+    
 }
 
 .photos .first-section {
@@ -161,13 +169,15 @@ article .badge {
     height: 200px;
     margin-left:40px;
     margin-right: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     
 }
 .photos .first-section img {
     width: 280px;
     height: 180px;
-    padding: 8px;
+    padding: 0px;
+    margin: 8px;
+    border: 1px solid #5A5757;
 
 }
 
@@ -184,14 +194,15 @@ article .badge {
 .photos .second-section img {
     width: 280px;
     height: 180px;
-    padding: 8px;
+    margin: 8px;
+    border: 1px solid #5A5757
 
 }
 
 /*Info*/
 
  #info {
-    width: 1300px;
+    width: 1200px;
     display: flex;
     margin-top: 40px;
     background-color: black;
@@ -206,6 +217,11 @@ article .badge {
 }
 section .display {
     width: 200px;
+    margin-top: 50px;
+    
+}
+section .display .title{
+    margin-bottom: 70px
 }
 
 
@@ -214,7 +230,12 @@ section .icon{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: #fff;
+    line-height: 1.35;
+    
 }
+
+    
+
 section .subtitle {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
@@ -242,8 +263,9 @@ section .side-info {
     justify-content: center;
 
 }
-.info-bar p {
+.info-bar .information-p {
     width: 340px;
+    color: #fff;
     height: auto;
     font-family: 'Montserrat', sans-serif;
     font-size:16px;
@@ -252,11 +274,359 @@ section .side-info {
 }
 section .image{
     width: 985px;
-    height: 270px;
+    height: 292px;
     
 }
 
-.info-bar p a{
+
+.info-bar p .info-link{
     color: #fff;
     text-decoration: underline;
+}
+.info-bar p .info-link:hover{
+    color: #FF5B50;
+    text-decoration: underline;
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+/*Popular Artists*/
+main #popular-content {
+    width: 900px;
+    height: auto;
+    margin-left: 60px;
+    margin-top: 120px;
+}
+#popular-content .artist-title{
+    margin-bottom: 120px;
+}
+ .orange-title{
+    color:#FF5B50;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+ .white-title {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+/*---------- Artists -------------------*/
+section .main-content {
+    display: flex;
+    width: 900px;
+    height: auto;
+}
+ /*-------------left-side -----------------*/
+.left-side {
+    width: 450px;
+    padding-right: 120px;
+    border-right: 1px solid #5A5757;
+    
+}
+.left-side .second-content {
+    padding-top: 50px;
+}
+.left-side .first-content .author-content {
+    margin-bottom: 20px;
+}
+.left-side .first-content span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+}
+.first-content .arrow-link {
+    width: 30px;
+    height: 30px;
+    margin-left: 155px;
+}
+.first-content div .author-price {
+    color:#5A5757;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.first-content div .orange-span{
+    color:#FF5B50;
+    margin-left: 205px;
+}
+.first-content .gallery-photo{
+    width: 350px;
+    height: 200px;
+}
+
+/*-----------right-side--------------*/
+.right-side {
+    width: 450px;
+    padding-left: 180px;       
+}
+.right-side .second-content {
+    padding-top: 50px;
+}
+.right-side .first-content .author-content {
+    margin-bottom: 20px;
+}
+.right-side .first-content span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+}
+.first-content .arrow-link {
+    width: 30px;
+    height: 30px;
+    margin-left: 155px;
+}
+.first-content div .author-price {
+    color:#5A5757;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.first-content div .orange-span{
+    color:#FF5B50;
+    margin-left: 205px;
+}
+.first-content .gallery-photo{
+    width: 350px;
+    height: 200px;
+}
+
+/* ----------------Best Artists----------------*/
+
+section #main-artists{
+    width: 900px;
+    height: 900px;
+     
+}
+#main-artists .best-artists {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+#main-artists .best-artists .white-title{
+    margin-right:10px;
+}
+#main-artists .artists-gallery {
+    margin-left: 65px;
+    margin-bottom: 60px; 
+    margin-top: 100px;
+}
+.artists-gallery .first-row{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.artists-gallery .second-row{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.artist {
+    width: 350px;
+    height: 150px;
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.artist:hover {
+    background-color: #FF5B50;
+    cursor: pointer;
+    transition: .5s;
+    opacity: 90%;
+
+}
+.artist .author-best {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    
+
+}
+.artist .photograf-best {
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.artist img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+.artist{
+    border-radius: 8px;
+}
+.all-artist {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-left: 105px;
+    align-items: center;
+    
+}
+.all-artist a {
+    color: #fff;
+    text-decoration: none;
+    font-size:20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+}
+.all-artist a img {
+    width: 20px;
+    height: 20px;
+    margin-left: 30px; 
+    
+}
+.all-artist a:hover{
+    color:#FF5B50;
+    transition: .5s;
+    cursor: pointer;
+}
+/*-------Footer--------*/
+footer {
+    width: 1265px;
+    background-color: #252525;
+    height: auto;
+    margin-top: 130px;
+
+}
+footer .footer-logo {
+    display: flex;
+    height: 222px;
+    align-items: center;
+    padding-left: 80px;
+    border-bottom: 1px solid #545454;
+}
+
+#btn-footer{
+    background-color:#FF5B50;
+    padding:20px;
+    border-radius: 4px;
+    margin-left: 880px;
+}
+#btn-footer:hover{
+    background-color: #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+#btn-footer img {
+    width: 20px;
+    height: 20px;
+}
+/*---------Footer Form----------*/
+footer .footer-contact{
+    width:1265px;
+    height: 300px;
+    background-color: #252525;
+    display: flex;
+    border-bottom: 1px solid #545454;
+
+}
+
+.form {
+    width: 350px;
+    height: auto;
+    margin-left: 85px;
+    padding-top: 70px;
+    border-right: 1px solid #545454;
+}
+.form .footer-title {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+}
+.form div #newsletter-form{
+    display: flex;
+    margin-top: 25px;
+    
+}
+#newsletter-form input {
+    border: none;
+    background-color:black;
+    opacity: 99%;
+    margin-right: 10px;
+    padding: 10px;
+}
+#newsletter-form #btn-form{
+    border-radius: 6px;
+    padding:10px;
+    margin-bottom: 5px;
+    background-color: #FF5B50;
+    color: black;
+    opacity: 90%;
+}
+#newsletter-form #btn-form:hover {
+    background-color: #fff;
+    color: black;
+    transition: .5s;
+    cursor: pointer;
+}
+/*-----Footer Links -----------*/
+
+.footer-contact .links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 665px;
+    margin-left: 80px;
+}
+.links ul strong li{
+    color:white;
+    font-weight: 700;
+}
+.links ul li{
+    font-size: 15px;
+    color: #545454;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+.links ul li:hover{
+    color: #FF5B50;
+    opacity: 90%;
+    transition: .5s;
+    cursor: pointer;
+}
+/*----------Footer Social Midias*/
+
+footer .footer-social {
+    width: 1265px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-social .url-site{
+    color: #5A5757;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 85px;
+}
+.footer-social .url-site:hover{
+    color: #FF5B50;
+    transition: .5s;
+    opacity: 90%;
+}
+
+.footer-social .social-midias{
+    display: flex;
+    margin-right: 50px;
+}
+.footer-social .social-midias img{
+    width: 30px;
+    height: 30px;
+    margin: 0px 20px;
 }

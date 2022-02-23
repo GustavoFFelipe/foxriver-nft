@@ -11,6 +11,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!---Jquery for slow animation in button-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!--FavIcon-->
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+
     <title>Foxriver NFT's</title>
 </head>
 
@@ -46,9 +52,10 @@
     </header>
 
     <main>
+        <!--Main Article-->
         <article class="main-article">
             <div class="exp-dig">
-                <p>Mercado digital para colecionáveis em criptos e tokens não fungível (NFT).
+                <p class="p-info">Mercado digital para colecionáveis em criptos e tokens não fungível (NFT).
                     Compre, venda e descubra ativos digitais exclusivos para você</p>
 
                 <div class="photo4"><img src="./assets/artista-4.png" alt="Imagem Artista 3"></div>
@@ -57,7 +64,7 @@
                 <div class="photo1"><img src="./assets/artista-1.png" alt="Imagem Artista 6"></div>
                 <span class="mais-artistas">
                     <a href="#melhor-artistas">
-                        <p> <strong>+10</strong> <br> Artistas selecionados.</p>
+                        <p class="p-link-artist"> <strong>+10</strong> <br> Artistas selecionados.</p>
                 </span>
                 </a>
             </div>
@@ -68,6 +75,7 @@
             </div>
             <div><img class="badge" src="./assets/badge.svg" alt="Selo Explore arte"></div>
         </article>
+        <!--Photos and Gallery-->
         <article class="photos">
             <section class="first-section">
                 <img src="./assets/galeria-1.png" alt="imagem de astronautas" class="photos-images">
@@ -82,7 +90,7 @@
                 <img src="./assets/galeria-8.png" alt="imagem de astronautas" class="photos-images">
             </section>
         </article>
-
+        <!--Info and links to other pages-->
         <article id="info">
             <section id="info-section">
                 <div class="display">
@@ -101,14 +109,18 @@
                 </div>
                 <div class="side-info">
                     <div class="info-bar">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue malesuada amet pretium lacus.
+                        <p class="information-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue
+                            malesuada amet
+                            pretium lacus.
                             Id
                             potenti diam et cras odio viverra. Amet, velit ut hac sit. Enim ultricies mauris mattis nunc
-                            semper. <br><br><br><br><a href="#">Leia mais</a> </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue malesuada amet pretium lacus.
+                            semper. <br><br><br><br><a class="info-link" href="#">Leia mais</a> </p>
+                        <p class="information-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue
+                            malesuada amet
+                            pretium lacus.
                             Id
                             potenti diam et cras odio viverra. Amet, velit ut hac sit. Enim ultricies mauris mattis nunc
-                            semper.<br><br><br><br><a href="#">Leia mais</a> </p>
+                            semper.<br><br><br><br><a class="info-link" href="#">Leia mais</a> </p>
                     </div>
 
                     <img class="image" src="./assets/banner.png" alt="Imagem representativa">
@@ -117,8 +129,249 @@
             </section>
 
         </article>
+        <!--Populars artists-->
+        <article>
+            <section id="popular-content">
+                <div class="artist-title">
+                    <span class="orange-title">Populares </span><span class="white-title"> da semana </span>
+                </div>
+                <div class="main-content">
+                    <div>
+                        <div class="left-side">
 
+                            <div class="first-content">
+                                <div class="author-content">
+                                    <span>Brighting Space</span>
+                                    <a href="#">
+                                        <img class="arrow-link" src="/assets/arrow-white.svg" alt="Links">
+                                    </a>
+                                </div>
+                                <div class="author-content">
+                                    <span class="author-price">Author</span>
+                                    <span class="orange-span">1.5 ETH</span>
+                                </div>
+                                <img class="gallery-photo" src="/assets/astronauta 1.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="left-side">
+                            <div class="first-content second-content">
+                                <div class="author-content">
+                                    <span>Brighting Space</span>
+                                    <a href="#">
+                                        <img class="arrow-link" src="/assets/arrow-white.svg" alt="Links">
+                                    </a>
+                                </div>
+                                <div class="author-content">
+                                    <span class="author-price">Author</span>
+                                    <span class="orange-span">1.5 ETH</span>
+                                </div>
+                                <img class="gallery-photo" src="/assets/astronauta-2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <div class="right-side">
+
+                            <div class="first-content">
+                                <div class="author-content">
+                                    <span>Brighting Space</span>
+                                    <a href="#">
+                                        <img class="arrow-link" src="/assets/arrow-white.svg" alt="Links">
+                                    </a>
+                                </div>
+                                <div class="author-content">
+                                    <span class="author-price">Author</span>
+                                    <span class="orange-span">1.5 ETH</span>
+                                </div>
+                                <img class="gallery-photo" src="/assets/astronauta 1.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="right-side">
+                            <div class="first-content second-content">
+                                <div class="author-content">
+                                    <span>Brighting Space</span>
+                                    <a href="#">
+                                        <img class="arrow-link" src="/assets/arrow-white.svg" alt="Links">
+                                    </a>
+                                </div>
+                                <div class="author-content">
+                                    <span class="author-price">Author</span>
+                                    <span class="orange-span">1.5 ETH</span>
+                                </div>
+                                <img class="gallery-photo" src="/assets/astronauta-2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <!--- Best Artists -->
+        <article>
+            <section id="main-artists">
+                <div class="best-artists">
+                    <span class="white-title">Melhores </span><span class="orange-title"> artistas</span>
+                </div>
+                <div class="artists-gallery">
+                    <div class="first-row">
+
+                        <div class="artist">
+                            <img src="/assets/artista-1.png" alt="Foto do artista">
+                            <div class="container-artist">
+                                <p class="author-best">Author</p>
+                                <p class="photograf-best">80 Fotográfias</p>
+                            </div>
+                        </div>
+                        <div class="artist">
+                            <img src="/assets/artista-2.png" alt="Foto do artista">
+                            <div class="container-artist">
+                                <p class="author-best">Author</p>
+                                <p class="photograf-best">99 Fotográfias</p>
+                            </div>
+                        </div>
+                        <div class="artist">
+                            <img src="/assets/artista-3.png" alt="Foto do artista">
+                            <div class="container-artist">
+                                <p class="author-best">Author</p>
+                                <p class="photograf-best">50 Fotográfias</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-row">
+                        <div class="artist">
+                            <img src="/assets/artista-4.png" alt="Foto do artista">
+                            <div class="container-artist">
+                                <p class="author-best">Author</p>
+                                <p class="photograf-best">30 Fotográfias</p>
+                            </div>
+                        </div>
+                        <div class="artist">
+                            <img src="/assets/artista-5.png" alt="Foto do artista">
+                            <div class="container-artist">
+                                <p class="author-best">Author</p>
+                                <p class="photograf-best">29 Fotográfias</p>
+                            </div>
+                        </div>
+                        <div class="artist">
+                            <img src="/assets/artista-6.png" alt="Foto do artista">
+                            <div class="container-artist">
+                                <p class="author-best">Author</p>
+                                <p class="photograf-best">17 Fotográfias</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="all-artist">
+                    <a href="#">
+                        <span>Veja todos os Artistas</span>
+                        <img src="/assets/arrow-orange.svg" alt="" class="-orange-arrow">
+                    </a>
+                </div>
+            </section>
+        </article>
+        <!--Footer--->
+        <footer>
+            <div class="footer-logo">
+                <h1 class="white-title">Foxriver <strong class="orange-title">NFTs</strong> </h1>
+                <button id="btn-footer" Onclick=""><img src="/assets/arrow-black.svg" alt=""></button>
+            </div>
+            <div class="footer-contact">
+                <div class="form">
+                    <h3 class="footer-title white-title">Fique por dentro de </h3>
+                    <h3 class="footer-title orange-title">todas as novidades</h3>
+                    <div>
+
+                        <form id="newsletter-form">
+                            <input type="email" placeholder="email@email.com" id="newsletter">
+                            <button id='btn-form' type="submit">Enviar</button>
+                        </form>
+                    </div>
+
+                </div>
+                <div class="links">
+                    <ul class="empresa">
+                        <strong>
+                            <li>Empresa</li>
+                        </strong>
+                        <a href="#">
+                            <li>Sobre</li>
+                        </a>
+                        <a href="#">
+                            <li>Serviços</li>
+                        </a>
+                        <a href="#">
+                            <li>Produtos</li>
+                        </a>
+                        <a href="#">
+                            <li>Carreira</li>
+                        </a>
+                    </ul>
+
+                    <ul class="maps-gallery">
+                        <strong>
+                            <li>Mapas</li>
+                        </strong>
+                        <a href="#">
+                            <li>Galeria</li>
+                        </a>
+                        <a href="#">
+                            <li>Populares</li>
+                        </a>
+                        <a href="#">
+                            <li>Vendas</li>
+                        </a>
+                        <a href="#">
+                            <li>Contato</li>
+                        </a>
+                    </ul>
+
+                    <ul class="other-links">
+                        <strong>
+                            <li>Links</li>
+                        </strong>
+                        <a href="#">
+                            <li>FAQ</li>
+                        </a>
+                        <a href="#">
+                            <li>Termos</li>
+                        </a>
+                        <a href="#">
+                            <li>Politíca</li>
+                        </a>
+                        <a href="#">
+                            <li>Ajuda</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-social">
+                <a href="#">
+
+                    <p class="url-site">www.foxriver.com</p>
+                </a>
+                <div class="social-midias">
+                    <a href="https://www.youtube.com/">
+
+                        <img src="/assets/youtube.svg" alt="link youtube">
+                    </a>
+                    <a href="https://www.instagram.com/">
+
+                        <img src="/assets/instagram.svg" alt="link instagram">
+                    </a>
+                    <a href="https://twitter.com/">
+
+                        <img src="/assets/twitter.svg" alt="link twitter">
+                    </a>
+                </div>
+            </div>
+        </footer>
     </main>
+    <script src="/src/scripts.js"></script>
 </body>
 
 </html>
