@@ -140,6 +140,10 @@ div .photo1{
     margin-left: 130px;
     margin-top: 60px;
 }
+.mais-artistas .p-link-artist:hover{
+    color: #FF5B50;
+    transition: .5s;
+}
 
 article .principal-div{
     color: #fff;
@@ -194,7 +198,8 @@ article .badge {
 .photos .second-section img {
     width: 280px;
     height: 180px;
-    margin: 8px;
+    padding: 0px;
+    margin: 9px;
     border: 1px solid #5A5757
 
 }
@@ -554,6 +559,7 @@ footer .footer-contact{
 }
 #newsletter-form input {
     border: none;
+    color: #fff;
     background-color:black;
     opacity: 99%;
     margin-right: 10px;
