@@ -14,8 +14,8 @@
 
 
 # Fotos 
-<img src="/home/gustavo/DES/rocket/desafios/foxriver-nft/images/1.png">
-<img src="/home/gustavo/DES/rocket/desafios/foxriver-nft/images/2.png">
-<img src="/home/gustavo/DES/rocket/desafios/foxriver-nft/images/3.png">
-<img src="/home/gustavo/DES/rocket/desafios/foxriver-nft/images/4.png">
-<img src="/home/gustavo/DES/rocket/desafios/foxriver-nft/images/5.png">
+![1](https://user-images.githubusercontent.com/66434155/156602892-c2d48282-a5dc-4df7-841d-429031ec77f4.png)
+![2](https://user-images.githubusercontent.com/66434155/156603152-f8d742e4-1b53-4078-90ab-ce6f6d102fc5.png)
+![3](https://user-images.githubusercontent.com/66434155/156603175-6b257ef6-6ad7-4b44-ae11-8b07412adaca.png)
+![4](https://user-images.githubusercontent.com/66434155/156603192-b12fd2db-002b-49d1-9a8e-29476ebad2a0.png)
+![5](https://user-images.githubusercontent.com/66434155/156603202-1f084c65-65cb-4fc2-a433-43be61c6e214.png)
